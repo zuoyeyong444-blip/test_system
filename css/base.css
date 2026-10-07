@@ -1,0 +1,46 @@
+﻿html, body{
+    height:100%;
+    margin:0;
+    font-family:sans-serif;
+}
+
+/* 通常入力欄 */
+input:not([type="file"]){
+    font-size:20px;
+    padding:10px;
+    width:250px;
+}
+
+/* ファイル選択 */
+input[type="file"]{
+    font-size:11px;
+}
+
+/* ファイル選択ボタン */
+input[type="file"]::file-selector-button{
+    font-size:16px;
+    padding:6px 12px;
+    cursor:pointer;
+}
+
+textarea{
+    width:100%;
+    height:120px;
+    font-size:18px;
+    white-space:pre;
+    font-family:monospace;
+}
+
+label{
+    display:block;
+    font-size:18px;
+}
+
+img{
+    max-width:100%;
+    border:1px solid #ccc;
+    margin:10px 0;
+
+    -webkit-user-drag:none;
+    user-drag:none;
+}
